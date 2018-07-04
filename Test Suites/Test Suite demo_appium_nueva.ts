@@ -4,7 +4,7 @@
    <name>Test Suite demo_appium_nueva</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-04T09:49:50</lastRun>
+   <lastRun>2018-07-04T10:41:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,5 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login-OK</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1bd738af-02a4-4613-a2ae-f5018c4f8209</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login-not-ok</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

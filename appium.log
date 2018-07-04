@@ -1,14 +1,14 @@
 [Appium] Welcome to Appium v1.6.4
 [Appium] Non-default server args:
-[Appium]   port: 56859
+[Appium]   port: 59321
 [Appium]   loglevel: info
-[Appium]   chromeDriverPort: 56860
-[Appium]   tmpDir: D:\Usuarios\IBERMA~1\AppData\Local\Temp\\Katalon\Appium\Temp1530689981605
-[Appium] Appium REST http interface listener started on 0.0.0.0:56859
+[Appium]   chromeDriverPort: 59322
+[Appium]   tmpDir: D:\Usuarios\IBERMA~1\AppData\Local\Temp\\Katalon\Appium\Temp1530693245849
+[Appium] Appium REST http interface listener started on 0.0.0.0:59321
 [HTTP] --> GET /wd/hub/status {}
-[HTTP] <-- GET /wd/hub/status 200 50 ms - 83 
+[HTTP] <-- GET /wd/hub/status 200 49 ms - 83 
 [HTTP] --> GET /wd/hub/status {}
-[HTTP] <-- GET /wd/hub/status 200 43 ms - 83 
+[HTTP] <-- GET /wd/hub/status 200 46 ms - 83 
 [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Testing Mobile\\appiumDemoViper.apk","appWaitActivity":"*","autoGrantPermissions":true,"deviceId":"ZH8006VQKP","deviceName":"Sony D2303 (Android 5.1.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ZH8006VQKP"},"capabilities":{"desiredCapabilities":{"app":"C:\\Testing Mobile\\appiumDemoViper.apk","appWaitActivity":"*","autoGrantPermissions":true,"deviceId":"ZH8006VQKP","deviceName":"Sony D2303 (Android 5.1.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"ZH8006VQKP"},"firstMatch":[{"platformName":"android"}]}}
 [Appium] Creating new AndroidDriver (v1.17.1) session
 [Appium] Capabilities:
@@ -24,7 +24,7 @@
 [Appium]   platformName: 'Android'
 [Appium]   udid: 'ZH8006VQKP'
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
-[BaseDriver] Session created with session id: 5c246564-9892-4659-8bc9-6d7a41123014
+[BaseDriver] Session created with session id: b3d577aa-999b-4c9c-a9d7-803d1b8924ab
 [AndroidDriver] Java version is: 1.8.0_102
 [ADB] Checking whether adb is present
 [ADB] Using adb.exe from D:\Usuarios\Ibermatica\.katalon\tools\android_sdk\platform-tools\adb.exe
@@ -46,34 +46,36 @@
 [ADB] Using aapt.exe from D:\Usuarios\Ibermatica\.katalon\tools\android_sdk\build-tools\21.1.2\aapt.exe
 [ADB] Extracting package and launch activity from manifest
 [ADB] No uiautomator process found to kill, continuing...
-[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
-[AndroidBootstrap] Android bootstrap socket is now connected
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
 [AndroidDriver] Screen already unlocked, doing nothing
-[Appium] New AndroidDriver session created successfully, session 5c246564-9892-4659-8bc9-6d7a41123014 added to master session list
-[HTTP] <-- POST /wd/hub/session 200 9108 ms - 1107 
+[Appium] New AndroidDriver session created successfully, session b3d577aa-999b-4c9c-a9d7-803d1b8924ab added to master session list
+[HTTP] <-- POST /wd/hub/session 200 13582 ms - 1107 
 [HTTP] --> GET /wd/hub/status {}
-[HTTP] <-- GET /wd/hub/status 200 41 ms - 83 
-[HTTP] --> POST /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014/timeouts {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014/timeouts 200 3 ms - 76 
-[HTTP] --> GET /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014/source {}
+[HTTP] <-- GET /wd/hub/status 200 48 ms - 83 
+[HTTP] --> POST /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab/timeouts 200 3 ms - 76 
+[HTTP] --> GET /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab/source {}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
-[HTTP] <-- GET /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014/source 200 202 ms - 5941 
-[HTTP] --> GET /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014/screenshot {}
-[HTTP] <-- GET /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014/screenshot 200 917 ms - 104218 
-[HTTP] --> GET /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014/source {}
+[HTTP] <-- GET /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab/source 200 501 ms - 5941 
+[HTTP] --> GET /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab/screenshot {}
+[HTTP] <-- GET /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab/screenshot 200 918 ms - 104218 
+[HTTP] --> GET /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab/source {}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
-[HTTP] <-- GET /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014/source 200 80 ms - 7730 
-[HTTP] --> GET /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014/screenshot {}
-[HTTP] <-- GET /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014/screenshot 200 965 ms - 93574 
-[HTTP] --> DELETE /wd/hub/session/5c246564-9892-4659-8bc9-6d7a41123014 {}
+[HTTP] <-- GET /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab/source 200 91 ms - 6859 
+[HTTP] --> GET /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab/screenshot {}
+[HTTP] <-- GET /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab/screenshot 200 1835 ms - 105974 
+[HTTP] --> DELETE /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab {}
+[HTTP] --> DELETE /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab {}
+[HTTP] <-- DELETE /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab 404 2 ms - 131 
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
 [ADB] No uiautomator process found to kill, continuing...
-[Appium] Removing session 5c246564-9892-4659-8bc9-6d7a41123014 from our master session list
+[Appium] Removing session b3d577aa-999b-4c9c-a9d7-803d1b8924ab from our master session list
+[HTTP] <-- DELETE /wd/hub/session/b3d577aa-999b-4c9c-a9d7-803d1b8924ab 200 2699 ms - 76 

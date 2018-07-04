@@ -2,7 +2,7 @@
 <TestSuiteCollectionEntity>
    <description></description>
    <name>Test Suite Collection Demo_appium_nueva</name>
-   <tag></tag>
+   <tag>Login-not-ok</tag>
    <executionMode>SEQUENTIAL</executionMode>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
