@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>Demo_appium_nueva</name>
+   <tag></tag>
+   <UUID>2da2cf81-0964-4d82-bdd5-84cb532b33fd</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

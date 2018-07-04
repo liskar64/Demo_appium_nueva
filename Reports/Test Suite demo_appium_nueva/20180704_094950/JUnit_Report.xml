@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite demo_appium_nueva" time="83" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite demo_appium_nueva" tests="1" failures="0" errors="0" time="83" timestamp="2018-07-04 09:49:52" hostname="Ibermatica - LM24398P.intranet.ibermatica" id="Test Suites/Test Suite demo_appium_nueva">
+      <properties>
+         <property name="deviceName" value="Sony D2303 (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Usuarios\\Ibermatica\\Katalon Studio\\Demo_appium_nueva\\Reports\\Test Suite demo_appium_nueva\\20180704_094950"/>
+         <property name="logFiles" value="D:\\Usuarios\\Ibermatica\\Katalon Studio\\Demo_appium_nueva\\Reports\\Test Suite demo_appium_nueva\\20180704_094950\\appium.log, D:\\Usuarios\\Ibermatica\\Katalon Studio\\Demo_appium_nueva\\Reports\\Test Suite demo_appium_nueva\\20180704_094950\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ibermatica - LM24398P.intranet.ibermatica"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.4"/>
+         <property name="deviceModel" value="D2303"/>
+         <property name="hostAddress" value="172.29.220.233"/>
+         <property name="deviceManufacturer" value="Sony"/>
+         <property name="deviceId" value="ZH8006VQKP"/>
+         <property name="deviceName" value="Sony D2303 (Android 5.1.1)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Login-OK" classname="Test Cases/Login-OK" status="PASSED">
+         <system-out><![CDATA[2018-07-04 09:49:53 - [TEST_CASE][PASSED] - Test Cases/Login-OK: Test Cases/Login-OK
+
+2018-07-04 09:49:53 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Testing Mobile\appiumDemoViper.apk'
+
+2018-07-04 09:50:38 - [MESSAGE][PASSED] - Started app at: 'C:\Testing Mobile\appiumDemoViper.apk'
+
+2018-07-04 09:50:38 - [TEST_STEP][PASSED] - setText: Text '77001622Z' has been set to element 'Object Repository/android.widget.EditText0 - N Documento'
+
+2018-07-04 09:50:46 - [MESSAGE][PASSED] - Text '77001622Z' has been set to element 'Object Repository/android.widget.EditText0 - N Documento'
+
+2018-07-04 09:50:46 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-04 09:50:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-04 09:50:50 - [TEST_STEP][PASSED] - setText: Text 'Ibermatica' has been set to element 'Object Repository/android.widget.EditText1'
+
+2018-07-04 09:50:58 - [MESSAGE][PASSED] - Text 'Ibermatica' has been set to element 'Object Repository/android.widget.EditText1'
+
+2018-07-04 09:50:58 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-04 09:51:02 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-04 09:51:02 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-07-04 09:51:03 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-07-04 09:51:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - Acceder'
+
+2018-07-04 09:51:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - Acceder'
+
+2018-07-04 09:51:04 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-04 09:51:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-04 09:51:08 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/android.widget.TextView1 - Cuentas' is visible
+
+2018-07-04 09:51:08 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView1 - Cuentas' is visible
+
+2018-07-04 09:51:08 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-07-04 09:51:09 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-07-04 09:51:09 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-07-04 09:51:15 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-04 09:49:52 - [TEST_SUITE][PASSED] - Test Suite demo_appium_nueva: Test Cases/Login-OK]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
