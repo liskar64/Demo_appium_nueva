@@ -21,21 +21,21 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Testing Mobile\\appiumDemoViper.apk', true)
 
-Mobile.setText(findTestObject('android.widget.EditText0 - N Documento'), '77001622Z', 4)
+Mobile.setText(findTestObject('android.widget.EditText0 - N Documento'), '77001622Z', 3)
 
 Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('android.widget.EditText1'), 'Ibermatica', 4)
+Mobile.setText(findTestObject('android.widget.EditText1'), 'Ibermatica', 3)
 
 Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('android.widget.Button0 - Acceder'), 4)
+Mobile.tap(findTestObject('android.widget.Button0 - Acceder'), 3)
 
 Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('android.widget.TextView1 - Cuentas'), 4)
+Mobile.verifyElementVisible(findTestObject('android.widget.TextView1 - Cuentas'), 3)
 
 Mobile.pressBack()
 
